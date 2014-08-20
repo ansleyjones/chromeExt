@@ -1,0 +1,53 @@
+body {
+  width: 300px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'PT Sans Narrow';
+  background-image: url(chrome.extension.getURL('images/bkg.png'));
+}
+header{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  line-height:40px;
+  padding-bottom: 25px;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  color: rgb(2, 80, 119);
+  font-size: 42px;
+}
+h2{
+  text-align: center;
+  color: rgb(2, 80, 119);
+  font-size: 34px;
+  margin: 0;
+}
+
+.weather{
+  width: 275px;
+  margin: auto;
+}
+
+.weatherList ul{
+  color: rgba(0, 85, 124, 0.5);
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 85, 124, 0.8);
+}
+
+.weatherList li{
+
+}
+.weatherList h3{
+  margin: 0px;
+  color: rgb(2, 80, 119);
+}
+
+.weatherList span{
+  font-weight: bold;
+}
